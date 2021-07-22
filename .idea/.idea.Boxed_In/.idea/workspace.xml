@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8e20b95-ee01-4a86-88e1-e9ba413daef3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Boxed_In/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Boxed_In/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/Proto_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/Proto_Level.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,9 +16,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BoxedIn/Scripts/SearchZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Waypoints/Index.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/AI Assessment/Assets/AI PathFinding/Scripts/Agent/AgentManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/AI Assessment/Assets/AI PathFinding/Scripts/Agent/Waypoints/Waypoints.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/FPSProject/Assets/FPS Project/Scripts/Enemy/TargetDetectionBasic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/AI Assessment/Assets/StateMachine/New Folder/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/FPSProject/Assets/FPS Project/Scripts/Enemy/AssualtEnemy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/FPSProject/Assets/FPS Project/Scripts/Enemy/EnemyBasic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../OldProjects/AI Pathfinding/Assets/AI PathFinding/Scripts/Agent/AgentManager.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/force_test.cs" />
+      <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/TestingScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Waypoints/Index.cs" />
+      <option value="$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" />
+      <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/WorkerStateMachine.cs" />
+      <option value="$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/SearchZone.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1veGx2zBiPv7XVjpDe2GLZ3lf0q" />
@@ -27,6 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -60,7 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626915390359</updated>
       <workItem from="1626915409442" duration="1201000" />
-      <workItem from="1626918655449" duration="1547000" />
+      <workItem from="1626918655449" duration="9444000" />
+      <workItem from="1626937432507" duration="15050000" />
     </task>
     <servers />
   </component>
@@ -79,6 +104,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
