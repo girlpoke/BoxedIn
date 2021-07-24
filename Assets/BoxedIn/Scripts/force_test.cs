@@ -41,6 +41,5 @@ public class force_test : MonoBehaviour
             forcePoint = this.transform.position + new Vector3(0, (cube.bounds.size.y / 2) - (cube.bounds.size.y * 0.1f), ((cube.bounds.size.z / 2) + 0.01f));
             cubeRigid.AddForceAtPosition(new Vector3(0, 0, -force), forcePoint);
         }
-
     }
 }
