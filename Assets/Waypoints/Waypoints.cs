@@ -19,7 +19,7 @@ public class Waypoints : MonoBehaviour
 
     void Awake() => SetNextWaypoint();
     void Update() => SetNextWaypoint();
-    private void SetNextWaypoint()
+    private void SetNextWaypoint() // from agent index output the transform
     {
         // loops through the agents in the array and gets the index
         // sets the destination of the agent and checks the distance between

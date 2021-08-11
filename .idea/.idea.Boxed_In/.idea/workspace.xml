@@ -3,12 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f8e20b95-ee01-4a86-88e1-e9ba413daef3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Boxed_In/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Boxed_In/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/MovementTesting.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/MovementTesting.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/Proto_Level.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scenes/Testing/Proto_Level.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/PlayerController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/force_test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BoxedIn/Scripts/force_test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Color Palette.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ProBuilder Data/Default Color Palette.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +49,13 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/TestingScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Waypoints/Index.cs" />
-      <option value="$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" />
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/WorkerStateMachine.cs" />
-      <option value="$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" />
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/SearchZone.cs" />
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/force_test.cs" />
-      <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Waypoints/Waypoints.cs" />
       <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController2.cs" />
+      <option value="$PROJECT_DIR$/Assets/BoxedIn/Scripts/ControlsTesting/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Waypoints/AgentManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1veGx2zBiPv7XVjpDe2GLZ3lf0q" />
@@ -102,7 +105,14 @@
       <workItem from="1626918655449" duration="9444000" />
       <workItem from="1626937432507" duration="15653000" />
       <workItem from="1627109947049" duration="3818000" />
-      <workItem from="1627120804922" duration="2239000" />
+      <workItem from="1627120804922" duration="3977000" />
+      <workItem from="1627281704039" duration="821000" />
+      <workItem from="1627369902429" duration="1967000" />
+      <workItem from="1627373006157" duration="4611000" />
+      <workItem from="1627634716131" duration="5273000" />
+      <workItem from="1627977513535" duration="3253000" />
+      <workItem from="1628051710487" duration="279000" />
+      <workItem from="1628053794222" duration="3221000" />
     </task>
     <servers />
   </component>
@@ -116,7 +126,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev---josh" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

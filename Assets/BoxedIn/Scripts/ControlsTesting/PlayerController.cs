@@ -5,29 +5,28 @@ using UnityEngine;
 
 namespace BoxedIn.testing
 {
+    [RequireComponent(typeof(Rigidbody), typeof(BoxCollider))]
     public class PlayerController : MonoBehaviour
     {
         [SerializeField] private float speed;
-        [SerializeField] private Rigidbody rb;
-
+        [SerializeField] private Transform cam;
+        private Rigidbody rb;
+        
         private void Start() => rb = GetComponent<Rigidbody>();
-
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.W)) AngularVelocity(-speed);
-            if (Input.GetKeyDown(KeyCode.A)) AngularVelocity(-speed, true);
-            if (Input.GetKeyDown(KeyCode.S)) AngularVelocity(speed);
-            if (Input.GetKeyDown(KeyCode.D)) AngularVelocity(speed, true);
-        }
+            var h = Input.GetAxis("Horizontal");
+            var v = Input.GetAxis("Vertical");
 
-        private void AngularVelocity(float _force, bool _sideControls = false)
-        {
-            var aV = rb.angularVelocity;
-            
-            if(!_sideControls) aV.x += (_force * Time.deltaTime);
-            else aV.z += (_force * Time.deltaTime);
-            
-            rb.angularVelocity = aV;
+            var direction = new Vector3(v, 0f, h);
+
+            if(direction.magnitude >= 0.1f)
+            {
+                float targetAngle = Mathf.Atan2(direction.x, -direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
+                var moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+               
+                rb.angularVelocity = moveDir * (speed * Time.deltaTime);
+            }
         }
     }
 }
